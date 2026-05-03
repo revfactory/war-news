@@ -1,0 +1,1931 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>이란 전황 데일리 — IRAN WAR DAILY · 제1호 · 2026년 5월 2일</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;600;700;900&family=Noto+Sans+KR:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,700&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --paper: #fafaf7;
+    --rule: #1a1a1a;
+    --accent: #8B0000;
+    --mute: #888;
+    --soft: #ddd;
+    --paper-warm: #f4f1e8;
+    --gray-1: #f0ede5;
+    --gray-2: #d8d4c7;
+    --gray-3: #4a4a4a;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #e6e3da;
+    color: var(--ink);
+    font-family: 'Noto Serif KR', 'Noto Sans KR', serif;
+    word-break: keep-all;
+    line-height: 1.7;
+  }
+
+  /* === PAGE FRAME === */
+  .page {
+    background: var(--paper);
+    width: 1200px;
+    max-width: 1200px;
+    margin: 24px auto;
+    padding: 28px 36px 36px 36px;
+    box-shadow: 0 2px 18px rgba(0,0,0,0.10);
+    position: relative;
+    border: 1px solid #c9c5b8;
+  }
+  .page-break { page-break-after: always; }
+
+  /* === MASTHEAD === */
+  .masthead {
+    border-top: 4px double var(--ink);
+    border-bottom: 4px double var(--ink);
+    padding: 14px 0 10px 0;
+    margin-bottom: 8px;
+    text-align: center;
+    position: relative;
+  }
+  .masthead-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 11px;
+    color: var(--gray-3);
+    letter-spacing: 0.5px;
+    padding: 0 4px 6px 4px;
+    border-bottom: 1px solid var(--ink);
+    margin-bottom: 10px;
+  }
+  .masthead-top .left,
+  .masthead-top .right { font-weight: 500; }
+  .masthead-top .center {
+    font-style: italic;
+    color: var(--accent);
+    font-weight: 700;
+    letter-spacing: 0.8px;
+  }
+  .masthead .eng-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 8px;
+    color: var(--accent);
+    text-transform: uppercase;
+    margin: 0 0 2px 0;
+  }
+  .masthead .kor-title {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 900;
+    font-size: 84px;
+    line-height: 1;
+    letter-spacing: -2px;
+    margin: 4px 0 6px 0;
+    color: var(--ink);
+  }
+  .masthead .kor-title .han {
+    color: var(--accent);
+    font-style: italic;
+  }
+  .masthead .eng-sub {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 22px;
+    letter-spacing: 6px;
+    color: var(--ink);
+    margin: 4px 0 0 0;
+  }
+  .masthead-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 11px;
+    color: var(--gray-3);
+    border-top: 1px solid var(--ink);
+    padding-top: 8px;
+    margin-top: 12px;
+  }
+  .masthead-bottom strong {
+    font-weight: 700;
+    color: var(--ink);
+  }
+  .masthead-bottom .ed-num {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 13px;
+  }
+
+  /* === SECTION HEADER === */
+  .section-header {
+    border-top: 3px solid var(--ink);
+    border-bottom: 1px solid var(--ink);
+    margin: 14px 0 18px 0;
+    padding: 10px 0 8px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .section-header .label {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 900;
+    font-size: 26px;
+    letter-spacing: 2px;
+    color: var(--accent);
+  }
+  .section-header .label .dot { color: var(--ink); margin: 0 8px; }
+  .section-header .meta {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--gray-3);
+  }
+
+  /* === INDEX BAR === */
+  .index-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid var(--ink);
+    border-bottom: 2px solid var(--ink);
+    padding: 8px 4px;
+    margin-top: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 11.5px;
+    color: var(--ink);
+    background: var(--gray-1);
+  }
+  .index-bar .item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .index-bar .num {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    color: var(--accent);
+    font-size: 14px;
+  }
+  .index-bar .sep { color: var(--mute); }
+
+  /* === FRONT PAGE GRID === */
+  .front-grid {
+    display: grid;
+    grid-template-columns: 1.7fr 1fr;
+    gap: 24px;
+    border-top: 1px solid var(--ink);
+    padding-top: 18px;
+  }
+
+  /* === LEAD STORY === */
+  .kicker {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 2px;
+    padding: 3px 10px;
+    margin-bottom: 10px;
+  }
+  .lead-headline {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 1.1;
+    letter-spacing: -1.5px;
+    color: var(--ink);
+    margin: 4px 0 12px 0;
+  }
+  .lead-headline .accent { color: var(--accent); }
+  .deck {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 1.45;
+    color: #444;
+    border-top: 1px solid var(--ink);
+    border-bottom: 1px solid var(--ink);
+    padding: 12px 0;
+    margin: 8px 0 14px 0;
+  }
+  .byline {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #666;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+    border-bottom: 1px dotted #aaa;
+  }
+  .byline .name { color: var(--ink); font-weight: 700; }
+
+  /* PHOTO PLACEHOLDER */
+  .photo-placeholder { margin: 12px 0 14px 0; }
+  .photo-frame {
+    aspect-ratio: 16/9;
+    border: 1px solid var(--ink);
+    overflow: hidden;
+    position: relative;
+    background: #1a1a1a;
+  }
+  .photo-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: grayscale(0.35) contrast(1.05);
+  }
+  .photo-frame::before,
+  .photo-frame::after {
+    content: '';
+    position: absolute;
+    width: 14px; height: 14px;
+    border: 1.5px solid #fafaf7;
+    z-index: 2;
+    pointer-events: none;
+  }
+  .photo-frame::before { top: 6px; left: 6px; border-right: 0; border-bottom: 0; }
+  .photo-frame::after { bottom: 6px; right: 6px; border-left: 0; border-top: 0; }
+  .photo-caption {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 11px;
+    color: #666;
+    line-height: 1.5;
+    margin: 6px 0 0 0;
+    padding: 4px 2px 0 2px;
+    border-top: 1px solid #bbb;
+  }
+  .photo-caption strong { color: var(--accent); font-weight: 700; }
+
+  /* MULTI-COLUMN BODY */
+  .lead-body {
+    column-count: 2;
+    column-gap: 20px;
+    column-rule: 1px solid #999;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 13.5px;
+    line-height: 1.75;
+  }
+  .lead-body p {
+    margin: 0 0 9px 0;
+    text-align: justify;
+  }
+  .lead-body .drop {
+    float: left;
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 0.9;
+    color: var(--accent);
+    padding: 4px 8px 0 0;
+    margin-right: 2px;
+  }
+  .lead-points {
+    column-count: 2;
+    column-gap: 20px;
+    column-rule: 1px solid #ccc;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 12.5px;
+    line-height: 1.7;
+    border-top: 1px solid var(--ink);
+    padding-top: 10px;
+    margin-top: 10px;
+    counter-reset: item;
+  }
+  .lead-points p {
+    margin: 0 0 7px 0;
+    padding-left: 22px;
+    position: relative;
+    text-align: justify;
+  }
+  .lead-points p::before {
+    content: counter(item);
+    counter-increment: item;
+    position: absolute;
+    left: 0; top: 1px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 10px;
+    color: var(--accent);
+    background: var(--paper);
+    border: 1.5px solid var(--accent);
+    width: 16px; height: 16px;
+    line-height: 13px;
+    text-align: center;
+    border-radius: 50%;
+  }
+
+  .source-box {
+    background: var(--gray-1);
+    border-left: 3px solid var(--accent);
+    padding: 8px 12px;
+    margin-top: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 11px;
+    line-height: 1.55;
+    color: #444;
+  }
+  .source-box .label {
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: 1px;
+    font-size: 10px;
+    margin-right: 6px;
+  }
+
+  /* === SIDE COLUMN === */
+  .side-col {
+    border-left: 1px solid #999;
+    padding-left: 20px;
+  }
+  .side-story {
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 14px;
+    margin-bottom: 14px;
+  }
+  .side-story:last-child { border-bottom: 0; }
+  .side-kicker {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--accent);
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+  .side-headline {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    margin: 2px 0 6px 0;
+  }
+  .side-deck {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #555;
+    margin: 4px 0 8px 0;
+    padding-bottom: 6px;
+    border-bottom: 1px dotted #999;
+  }
+  .side-byline {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10.5px;
+    color: #777;
+    margin-bottom: 8px;
+  }
+  .side-body {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 12.5px;
+    line-height: 1.7;
+  }
+  .side-body p { margin: 0 0 7px 0; text-align: justify; }
+  .side-points {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0 0 0;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 12px;
+    line-height: 1.65;
+  }
+  .side-points li {
+    padding-left: 14px;
+    position: relative;
+    margin-bottom: 4px;
+  }
+  .side-points li::before {
+    content: '▸';
+    position: absolute;
+    left: 0; top: 0;
+    color: var(--accent);
+    font-size: 10px;
+  }
+
+  /* === SUMMARY BOX === */
+  .summary-box {
+    background: var(--paper-warm);
+    border: 1px solid var(--ink);
+    padding: 12px 14px;
+    margin-top: 4px;
+  }
+  .summary-box .head {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: var(--accent);
+    border-bottom: 1.5px solid var(--accent);
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+  }
+  .summary-box .sub {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px;
+    color: #666;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+  }
+  .summary-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 12px;
+    line-height: 1.55;
+  }
+  .summary-list li {
+    padding: 6px 0 6px 56px;
+    border-bottom: 1px dotted #aaa;
+    position: relative;
+  }
+  .summary-list li:last-child { border-bottom: 0; }
+  .summary-list .date {
+    position: absolute;
+    left: 0; top: 6px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 12px;
+    color: var(--accent);
+    background: var(--paper);
+    border: 1px solid var(--accent);
+    padding: 1px 5px;
+    letter-spacing: 0.5px;
+  }
+
+  /* === BOTTOM PUBLISHER NOTE === */
+  .pub-note {
+    margin-top: 20px;
+    padding: 10px 14px;
+    border-top: 3px double var(--ink);
+    border-bottom: 1px solid var(--ink);
+    font-family: 'Noto Serif KR', serif;
+    font-style: italic;
+    font-size: 12px;
+    color: #555;
+    text-align: center;
+  }
+  .pub-note::before, .pub-note::after { content: '" '; color: var(--accent); font-weight: 900; }
+
+  /* ============== PAGE 2 ============== */
+  .p2-grid {
+    display: grid;
+    grid-template-columns: 2fr 1.3fr;
+    gap: 28px;
+    border-top: 1px solid var(--ink);
+    padding-top: 16px;
+  }
+  .p2-main h2.headline {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 1.15;
+    letter-spacing: -1.2px;
+    margin: 8px 0 10px 0;
+  }
+  .p2-main h2.headline .accent { color: var(--accent); }
+  .p2-main .deck {
+    font-size: 18px;
+    padding: 10px 0;
+    margin-bottom: 12px;
+  }
+  .p2-body {
+    column-count: 2;
+    column-gap: 20px;
+    column-rule: 1px solid #999;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 13px;
+    line-height: 1.75;
+    counter-reset: pitem;
+  }
+  .p2-body p {
+    margin: 0 0 7px 0;
+    padding-left: 20px;
+    position: relative;
+    text-align: justify;
+  }
+  .p2-body p::before {
+    content: counter(pitem);
+    counter-increment: pitem;
+    position: absolute;
+    left: 0; top: 4px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 10px;
+    color: var(--accent);
+    width: 14px;
+  }
+
+  /* CAMP TABLE */
+  .camp-table-wrap { margin-top: 0; }
+  .camp-table-wrap .table-title {
+    background: var(--ink);
+    color: #fff;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 6px 12px;
+    margin-bottom: 0;
+  }
+  .camp-table-wrap .table-sub {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10.5px;
+    color: #555;
+    padding: 5px 0 8px 0;
+    border-bottom: 2px solid var(--ink);
+    margin-bottom: 6px;
+  }
+  table.camp {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 11.5px;
+    line-height: 1.55;
+  }
+  table.camp th, table.camp td {
+    border: 1px solid var(--ink);
+    padding: 7px 8px;
+    vertical-align: top;
+    text-align: left;
+  }
+  table.camp thead th {
+    background: var(--gray-1);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  table.camp td.camp-name {
+    background: var(--paper-warm);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    width: 18%;
+    color: var(--ink);
+  }
+  table.camp td.camp-name .flag {
+    display: inline-block;
+    width: 6px; height: 18px;
+    background: var(--accent);
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+  table.camp td.stance { width: 32%; }
+  table.camp td.quote {
+    font-style: italic;
+    color: #444;
+    font-size: 11px;
+  }
+  table.camp td.quote .who {
+    display: block;
+    font-style: normal;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    color: var(--accent);
+    margin-top: 4px;
+  }
+
+  /* SANCTIONS TABLE */
+  table.sanctions {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 11.5px;
+    margin-top: 8px;
+  }
+  table.sanctions th, table.sanctions td {
+    border-bottom: 1px solid var(--ink);
+    padding: 7px 6px;
+    vertical-align: top;
+    text-align: left;
+  }
+  table.sanctions thead th {
+    background: var(--ink);
+    color: #fff;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 10.5px;
+    letter-spacing: 1px;
+    border-bottom: 0;
+    padding: 6px 8px;
+  }
+  table.sanctions td.date {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: var(--accent);
+    width: 11%;
+    white-space: nowrap;
+  }
+  table.sanctions td.actor {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    width: 16%;
+  }
+  table.sanctions td.act { width: 26%; font-weight: 500; }
+  table.sanctions td.target { width: 32%; color: #444; }
+  table.sanctions td.src {
+    width: 15%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px;
+    color: #666;
+  }
+  table.sanctions tbody tr:nth-child(even) { background: var(--gray-1); }
+
+  /* PAGE 2 SIDE */
+  .p2-side h3.sub-head {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 900;
+    font-size: 18px;
+    color: var(--accent);
+    border-top: 2px solid var(--accent);
+    border-bottom: 1px solid var(--ink);
+    padding: 6px 0;
+    margin: 0 0 10px 0;
+    letter-spacing: 1px;
+  }
+
+  /* ============== PAGE 3 ============== */
+  .p3-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    gap: 22px;
+    border-top: 1px solid var(--ink);
+    padding-top: 16px;
+  }
+  .editorial {
+    background: var(--paper-warm);
+    border: 1px solid var(--ink);
+    padding: 16px 16px 14px 16px;
+    position: relative;
+  }
+  .editorial::before {
+    content: 'EDITORIAL';
+    position: absolute;
+    top: -10px;
+    left: 14px;
+    background: var(--accent);
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 11px;
+    letter-spacing: 4px;
+    padding: 2px 10px;
+  }
+  .editorial .ed-tag {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 10.5px;
+    letter-spacing: 2px;
+    color: var(--accent);
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  .editorial h3 {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    color: var(--ink);
+    margin: 6px 0 10px 0;
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 8px;
+  }
+  .editorial .ed-byline {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10.5px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  .editorial p {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 12.5px;
+    line-height: 1.78;
+    margin: 0 0 8px 0;
+    text-align: justify;
+  }
+  .editorial p:first-of-type::first-letter {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 900;
+    font-size: 38px;
+    color: var(--accent);
+    float: left;
+    line-height: 0.95;
+    padding: 4px 6px 0 0;
+  }
+
+  /* ANALYSIS */
+  .analysis h2.headline {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1.15;
+    letter-spacing: -1px;
+    margin: 6px 0 10px 0;
+  }
+  .analysis h2.headline .accent { color: var(--accent); }
+  .analysis .deck {
+    font-size: 16px;
+    padding: 10px 0;
+  }
+  .analysis-body {
+    column-count: 2;
+    column-gap: 18px;
+    column-rule: 1px solid #999;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 12.5px;
+    line-height: 1.72;
+    counter-reset: aitem;
+  }
+  .analysis-body p {
+    margin: 0 0 7px 0;
+    padding-left: 18px;
+    position: relative;
+    text-align: justify;
+  }
+  .analysis-body p::before {
+    content: counter(aitem);
+    counter-increment: aitem;
+    position: absolute;
+    left: 0; top: 3px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 9.5px;
+    color: var(--accent);
+  }
+  .analysis-body .scenario {
+    background: var(--gray-1);
+    padding: 6px 8px 6px 26px;
+    border-left: 3px solid var(--accent);
+    margin: 4px 0 7px 0;
+  }
+  .analysis-body .scenario::before { left: 8px; }
+
+  /* KOREA BOX */
+  .korea-box {
+    background: var(--paper);
+    border: 2px solid var(--ink);
+    padding: 12px 14px;
+  }
+  .korea-box h3 {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 900;
+    font-size: 17px;
+    color: var(--accent);
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 6px;
+    margin: 0 0 10px 0;
+    letter-spacing: 1px;
+  }
+  .korea-box h3 .small {
+    display: block;
+    font-size: 10px;
+    font-weight: 500;
+    color: #666;
+    letter-spacing: 0.5px;
+    margin-top: 2px;
+  }
+  .korea-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 11.5px;
+    line-height: 1.65;
+    counter-reset: kitem;
+  }
+  .korea-list li {
+    padding: 7px 0 7px 28px;
+    border-bottom: 1px dotted #aaa;
+    position: relative;
+  }
+  .korea-list li:last-child { border-bottom: 0; }
+  .korea-list li::before {
+    counter-increment: kitem;
+    content: counter(kitem, decimal-leading-zero);
+    position: absolute;
+    left: 0; top: 7px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 10px;
+    color: var(--accent);
+    background: var(--paper-warm);
+    padding: 1px 4px;
+  }
+  .korea-list li b {
+    color: var(--ink);
+    font-weight: 700;
+  }
+
+  /* ============== PAGE 4 — DATA ============== */
+  .p4-section {
+    border-top: 1px solid var(--ink);
+    padding-top: 16px;
+  }
+  .infographic {
+    border: 1px solid var(--ink);
+    background: var(--paper);
+    margin-bottom: 18px;
+    padding: 14px 16px 16px 16px;
+  }
+  .infographic .ig-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .infographic .ig-head .num {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 900;
+    color: var(--accent);
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+  .infographic .ig-head h3 {
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 900;
+    font-size: 22px;
+    margin: 0;
+    color: var(--ink);
+    letter-spacing: -0.3px;
+  }
+  .infographic .ig-head .meta {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10.5px;
+    color: #666;
+  }
+
+  .timeline-svg-wrap { width: 100%; overflow-x: auto; }
+  .infographic-2col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    margin-bottom: 18px;
+  }
+
+  /* CASUALTY TABLE */
+  table.casualty {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Noto Serif KR', serif;
+    font-size: 11.5px;
+  }
+  table.casualty th, table.casualty td {
+    border-bottom: 1px solid var(--ink);
+    padding: 6px 8px;
+    text-align: left;
+    vertical-align: top;
+  }
+  table.casualty thead th {
+    background: var(--ink);
+    color: #fff;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 10.5px;
+    letter-spacing: 1px;
+    border-bottom: 0;
+  }
+  table.casualty td.field {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    width: 38%;
+    color: var(--ink);
+  }
+  table.casualty td.value {
+    width: 32%;
+    font-weight: 600;
+  }
+  table.casualty td.value .alt {
+    display: block;
+    color: var(--accent);
+    font-weight: 500;
+    font-size: 11px;
+    margin-top: 2px;
+  }
+  table.casualty td.src {
+    width: 30%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px;
+    color: #666;
+  }
+  table.casualty .sub-section td {
+    background: var(--paper-warm);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    color: var(--accent);
+    font-size: 11px;
+    letter-spacing: 1px;
+    padding: 6px 8px;
+  }
+  table.casualty tr.discrepancy td.value {
+    background: var(--gray-1);
+  }
+
+  .ed-note {
+    background: var(--paper-warm);
+    border-left: 3px solid var(--accent);
+    padding: 8px 12px;
+    margin-top: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10.5px;
+    color: #444;
+    line-height: 1.55;
+  }
+  .ed-note b { color: var(--accent); }
+
+  /* === FOOTER (page) === */
+  .page-footer {
+    margin-top: 22px;
+    padding-top: 8px;
+    border-top: 3px double var(--ink);
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10.5px;
+    color: #666;
+    letter-spacing: 0.5px;
+  }
+  .page-footer .pg-num {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 900;
+    color: var(--accent);
+  }
+
+  /* ============ PRINT ============ */
+  @media print {
+    @page { size: A3 portrait; margin: 1cm; }
+    html, body { background: #fff; font-size: 10.5pt; }
+    .page {
+      box-shadow: none;
+      border: 0;
+      margin: 0;
+      width: 100%;
+      max-width: 100%;
+      padding: 0;
+    }
+    .page-break { page-break-after: always; }
+    .lead-headline { font-size: 44px; }
+    .masthead .kor-title { font-size: 70px; }
+    .no-print { display: none; }
+  }
+
+  /* ============ RESPONSIVE ============ */
+  @media (max-width: 1024px) {
+    .page { width: 100%; padding: 18px; }
+    .front-grid { grid-template-columns: 1fr; }
+    .side-col { border-left: 0; padding-left: 0; border-top: 2px solid var(--ink); padding-top: 16px; }
+    .lead-body { column-count: 1; }
+    .lead-points { column-count: 1; }
+    .p2-grid, .p3-grid { grid-template-columns: 1fr; }
+    .p2-body, .analysis-body { column-count: 1; }
+    .infographic-2col { grid-template-columns: 1fr; }
+    .lead-headline { font-size: 36px; }
+    .masthead .kor-title { font-size: 52px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- =========================== PAGE 1 =========================== -->
+<section class="page">
+
+  <!-- MASTHEAD -->
+  <header class="masthead">
+    <div class="masthead-top">
+      <div class="left">2026년 5월 2일 (토) · 음력 3월 16일</div>
+      <div class="center">전쟁 64일째, 사실로 본다</div>
+      <div class="right">제1호 · VOL.I · 배포용</div>
+    </div>
+    <div class="eng-title">The Iran War Daily</div>
+    <h1 class="kor-title">이란 전황 데일리</h1>
+    <div class="eng-sub">IRAN&nbsp;&nbsp;WAR&nbsp;&nbsp;DAILY</div>
+    <div class="masthead-bottom">
+      <div><strong>발행</strong> 이란 전황 데일리 편집국 · <strong>편집장</strong> editor-in-chief</div>
+      <div class="ed-num">EST. 2026 · ISSUE No. 01 · SEOUL · KOREA</div>
+      <div><strong>취재 윈도우</strong> 2026.04.27 — 05.02</div>
+    </div>
+  </header>
+
+  <!-- INDEX BAR -->
+  <div class="index-bar">
+    <div class="item"><span class="num">01</span><span>종합 · 톱뉴스</span></div>
+    <span class="sep">|</span>
+    <div class="item"><span class="num">02</span><span>국제 · 외교</span></div>
+    <span class="sep">|</span>
+    <div class="item"><span class="num">03</span><span>분석 · 사설</span></div>
+    <span class="sep">|</span>
+    <div class="item"><span class="num">04</span><span>데이터 · 인포그래픽</span></div>
+  </div>
+
+  <!-- FRONT GRID -->
+  <div class="front-grid">
+
+    <!-- LEAD -->
+    <article class="lead">
+      <span class="kicker">메인 톱 · 전쟁 DAY 64</span>
+      <h2 class="lead-headline">트럼프 <span class="accent">"조기 종전 없다"</span>… 이란 봉쇄 64일째</h2>
+      <div class="deck">적대행위 "종료" 통보로 의회 우회… 호르무즈 통항료엔 "지불하면 제재" 경고</div>
+      <div class="byline"><span class="name">by 종군기자</span> · 워싱턴=백악관 풀 · 두바이 발신 · 2026-05-02 KST</div>
+
+      <div class="photo-placeholder">
+        <div class="photo-frame"><img src="images/photo1_blockade.png" alt="호르무즈 봉쇄 — 미 해군 항모전단 항공 사진" /></div>
+        <p class="photo-caption"><strong>호르무즈 동측 입구 봉쇄선</strong> — 미 해군 항공모함 전단이 호르무즈 해협 동측 입구를 봉쇄 중인 모습. 5월 1일 CENTCOM은 봉쇄 개시 이래 상선 약 44척을 회항·억류했다고 발표했다. (이미지: AI 생성 시뮬레이션)</p>
+      </div>
+
+      <div class="lead-body">
+        <p><span class="drop">트</span>럼프 미 대통령은 5월 1일(현지시간) "이란과의 전쟁을 조기에 끝낼 생각이 없다"며 미 해군의 이란 항구 봉쇄를 유지하겠다고 못 박았다. 같은 날 백악관은 의회에 "2월 28일 시작된 적대행위는 종료(terminated)됐다"고 통보해 전쟁권한법(War Powers Resolution) 60일 시한 적용을 우회했다.</p>
+        <p>미 재무부 OFAC은 같은 날 이란 자금망 6명·21개 단체·선박 1척에 대한 신규 제재와 함께 "호르무즈 해협 통항료를 이란에 지불하면 제재 위험에 노출될 수 있다"는 글로벌 경보를 발령했다. 트럼프는 5월 2일에도 "이란이 받아들일 수 없는 요구를 한다"며 봉쇄 강도 유지를 재확인했다.</p>
+        <p>호르무즈에는 한국 선박 26척을 포함한 전 세계 약 2,000척의 상선이 통항을 못 하고 묶여 있다. 전쟁은 64일째에 접어들었다.</p>
+      </div>
+
+      <div class="lead-points">
+        <p>트럼프는 5월 1일 백악관 발 인터뷰에서 "조기 종전은 없다(no early end)"고 단언했다.</p>
+        <p>4월 29일 Axios 인터뷰에서는 봉쇄에 대해 "폭격보다 다소 더 효과적이다"라고 평가한 바 있다.</p>
+        <p>미 중부사령부(CENTCOM)는 4월 30일 발표 기준 봉쇄 개시 이래 상선 약 44척을 회항·억류 처리했다고 밝혔다.</p>
+        <p>백악관은 5월 1일 마이크 존슨 하원의장과 척 그래슬리 상원 임시의장 앞으로 서한을 보내 "2/28 적대행위가 종료됐다"고 통보했다.</p>
+        <p>이는 60일 시한이 5월 1일 도래한 전쟁권한법(WPR) 적용을 회피하려는 법적 포지션이다.</p>
+        <p>척 슈머 민주당 원내대표는 "헛소리(bullshit)"라며 반발했고, 브레난센터 캐서린 욘 에브라이트 카운슬은 "60일 시계가 정지될 수 있다는 어떤 문언도 없다"고 비판했다.</p>
+        <p>피트 헤그세스 미 국방장관은 4월 29~30일 양원 군사위 청문회에서 "휴전이 60일 시계를 정지시킨다(stops)"고 주장해 격론을 일으켰다.</p>
+        <p>OFAC은 5월 1일 신규 제재 패키지를 발표했다 — 개인 6명, 단체 21개, 선박 1척이 SDN(특별제재대상)에 등재됐다.</p>
+        <p>등재 인물은 이란·UAE·중국·도미니카·세인트키츠 국적이 섞인 이중·삼중국적자 다수로, 우회 자금망을 정조준했다.</p>
+        <p>OFAC은 같은 날 "호르무즈 통항 대가 지불의 제재 위험" 경보를 별도로 발령해 한국·일본·유럽 선사들의 결정을 직접 압박했다.</p>
+        <p>이란 페제시키안 대통령은 미국의 봉쇄를 "사실상 군사작전의 연장(extension of military operations)"으로 규정하며 협상을 거부했다.</p>
+        <p>이란은 4월 27일 파키스탄을 통해 "호르무즈 재개방·종전 ↔ 봉쇄 해제, 핵 협상은 후순위" 패키지를 제안했으나 트럼프는 4월 29일 거부했다.</p>
+        <p>이란은 5월 1일 이슬라마바드를 통해 갱신된 평화 제안을 다시 전달했다는 보도가 나왔다.</p>
+        <p>호르무즈 동·서편에는 한국 선박 26척을 포함해 약 2,000척이 발이 묶여 있고, 일일 통항은 평시 대비 95% 이상 감소했다.</p>
+      </div>
+
+      <div class="source-box">
+        <span class="label">SOURCES</span>
+        Al Jazeera 2026-05-02 라이브 (트럼프 "no early end" 발언) · Axios 2026-04-29 인터뷰 · CBS / PBS / CNBC / Fox / Roll Call 2026-05-01 (의회 서한 보도) · U.S. Treasury OFAC press release sb0483 / Recent Actions 20260501 · 트럼프 5월 1일 의회 서한 본문 · Brennan Center 캐서린 욘 에브라이트 인터뷰 · ANI 인용 CENTCOM 발표 (척수 약 44척, 4월 30일 기준)
+      </div>
+    </article>
+
+    <!-- SIDE COLUMN -->
+    <aside class="side-col">
+
+      <article class="side-story">
+        <div class="side-kicker">시장 · 사이드 톱 1</div>
+        <h3 class="side-headline">브렌트유 장중 126달러… <br/>4년 만 최고</h3>
+        <div class="side-deck">UAE의 OPEC·OPEC+ 동시 탈퇴 충격… 이란발 신제안에 5월 1일 108달러로 회복</div>
+        <div class="side-byline">by <b style="color:#222">외교기자</b> · 런던/뉴욕=시황 데스크</div>
+        <div class="side-body">
+          <p>국제 유가가 5일 만에 17%의 진폭을 그렸다. 4월 30일 브렌트유는 장중 배럴당 <b>126.41달러</b>까지 치솟아 2022년 6월 이후 4년 만의 최고치(wartime high)를 찍었다. 이날 종가는 114.01달러.</p>
+          <p>5월 1일에는 이란이 파키스탄을 통해 갱신된 평화 제안을 전달했다는 보도와 함께 <b>108.10달러(-2.08%)</b>로 되돌아왔다. WTI는 같은 날 101.94달러로 마감했다. 4월 28일 UAE의 OPEC·OPEC+ 동시 탈퇴 발표가 시장 변동성을 키웠다.</p>
+          <ul class="side-points">
+            <li>4/26 브렌트 종가 108.23달러 — 협상 교착 출발점</li>
+            <li>4/28 트럼프 불만 표명에 111.26달러 상승</li>
+            <li>4/29 봉쇄 유지 + Axios 보도로 +6%대 급등</li>
+            <li>4/30 장중 126.41달러 와타임 하이 기록</li>
+            <li>4/28 UAE, 59년 만에 OPEC·OPEC+ 동시 탈퇴 (5/1 발효)</li>
+            <li>5/1 이란 신제안 보도로 108달러대 후퇴, 한 주 진폭 17%</li>
+          </ul>
+        </div>
+        <div class="source-box">
+          <span class="label">SOURCES</span>
+          CNBC 2026-04-30, 2026-05-01 · CNN Business 2026-04-30 · Bloomberg / Euronews / CBC 2026-04-30 · Trading Economics 2026-05-01 종가 · Al Jazeera / Bloomberg / NPR / WAM 2026-04-28
+        </div>
+      </article>
+
+      <article class="side-story">
+        <div class="side-kicker">한국 · 사이드 톱 2</div>
+        <h3 class="side-headline">한국 선박 26척 호르무즈 발묶여</h3>
+        <div class="side-deck">정병하 외교장관 특사(전 주쿠웨이트 대사) 4/22 테헤란행… 이란 "사전 협의·통항료 지불" 요구</div>
+        <div class="side-byline">by <b style="color:#222">외교기자</b> · 서울 외교부</div>
+        <div class="side-body">
+          <p>호르무즈 해협에 한국 선박 26척(유조선 11척·기타 15척)이 발이 묶였다. <b>정병하 외교장관 특사(전 주쿠웨이트 대사)</b>는 4월 22일 테헤란을 방문해 아바스 아라그치 이란 외교장관과 면담했고, 4월 30일 박일 외교부 대변인이 정례브리핑으로 후속 입장을 발표했다.</p>
+          <p>이란은 "사전 협의 후 지정 항로(이란 본토~Larak섬 영해) 통과 + 통항 안내 비용 지불"을 조건으로 내걸었다. 한국 정부 입장은 "통항료 지불 불가, 통항 결정은 선사 몫". 미 OFAC은 5월 1일 "통항료 지불은 제재 위험"이라는 글로벌 경보를 발령해 한국 선사의 의사결정을 더욱 옥좼다.</p>
+          <ul class="side-points">
+            <li>한국 선박 26척 (유조선 11·기타 15) 호르무즈 발묶임</li>
+            <li>정병하 특사 — 전쟁 발발 후 첫 외국 고위 인사 방문</li>
+            <li>산업부(김정관 장관) "비축유 방출 없이 4~5월 넘긴다"</li>
+            <li>5월 원유 확보율 평시 대비 80%, 비축유 스와프 7월까지 검토</li>
+            <li>원/달러 4/30 1,473원 → 5/1 1,485원 약세 전환</li>
+            <li>한국 원유 70.7% 중동 수입, 그 95%가 호르무즈 통과</li>
+          </ul>
+        </div>
+        <div class="source-box">
+          <span class="label">SOURCES</span>
+          Korea Herald 2026-04-30 · Korea Times·UPI 2026-04-23 (4/22 면담) · 외교부 정례브리핑 2026-04-30 (박일 대변인) · Seoul Economic Daily · ZDNet Korea (산업부) · OFAC Alert 2026-05-01 · Trading Economics
+        </div>
+      </article>
+
+      <!-- SUMMARY BOX -->
+      <div class="summary-box">
+        <div class="head">5일 핵심 다이제스트</div>
+        <div class="sub">2026.04.27 — 05.02 · 편집부 정리</div>
+        <ul class="summary-list">
+          <li><span class="date">04/27</span>이란, 파키스탄 중재로 미국에 "호르무즈 재개방·핵 후순위" 신제안 전달. IDF는 베카 계곡 20여 표적 동시 타격.</li>
+          <li><span class="date">04/28</span>UAE, OPEC·OPEC+ 동시 탈퇴 선언(5/1 발효). IAEA 그로시 "이란 60% 농축 우라늄 약 440파운드 이스파한 잔류" 우려.</li>
+          <li><span class="date">04/29</span>트럼프 "봉쇄가 폭격보다 효과적" 봉쇄 유지 공언. 이란 리알 사상 최저 1,810,000/달러. 트럼프-푸틴 90분+ 통화.</li>
+          <li><span class="date">04/30</span>브렌트유 장중 126달러 와타임 하이. 모즈타바 하메네이 "외국인은 호르무즈 해저 외엔 자리 없다". UAE 자국민 이란·레바논·이라크 여행금지.</li>
+          <li><span class="date">05/01</span>트럼프 의회에 "적대행위 종료" 통보, OFAC 신규 제재(6명·21단체·1선박)+통항료 제재경보. 남부 레바논 공습 사상자 매체별 9~32명.</li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+
+  <!-- PUB NOTE -->
+  <div class="pub-note">
+    본지는 5일 윈도우(2026-04-27~05-02) 내 사건만 다루며, 1면 톱은 팩트체커 A등급 검증을 통과한 기사로만 구성한다.
+  </div>
+
+  <div class="page-footer">
+    <span>이란 전황 데일리 · IRAN WAR DAILY · 제1호</span>
+    <span class="pg-num">— 1 —</span>
+    <span>2026.05.02 (토) · FRONT PAGE</span>
+  </div>
+</section>
+<div class="page-break"></div>
+
+<!-- =========================== PAGE 2 =========================== -->
+<section class="page">
+  <header class="section-header">
+    <div class="label">국제<span class="dot">·</span>외교</div>
+    <div class="meta">5일 외교 일지 · 진영별 입장 · 제재 표 &nbsp;|&nbsp; PAGE 02</div>
+  </header>
+
+  <div class="p2-grid">
+    <!-- MAIN ARTICLE -->
+    <article class="p2-main">
+      <span class="kicker">2면 톱 · 외교</span>
+      <h2 class="headline">이란 <span class="accent">"봉쇄는 군사작전"</span><br/>미·이란 외교 정면충돌</h2>
+      <div class="deck">이란 신제안 트럼프 거부, 푸틴 우라늄 보관 중재 제의도 무산… IAEA "60% 농축 우라늄 검증 불능"</div>
+      <div class="byline"><span class="name">by 외교기자</span> · 모스크바·테헤란·워싱턴 발신 종합 · 2026-05-02</div>
+
+      <div class="photo-placeholder">
+        <div class="photo-frame"><img src="images/photo2_diplomacy.png" alt="외교 정면충돌 — 빈 회담장 이미지" /></div>
+        <p class="photo-caption"><strong>외교 정면충돌</strong> — 미·이란이 봉쇄·신제안·핵검증을 둘러싸고 5일 사이 정면 충돌했다. 트럼프-푸틴은 90분 이상 통화하며 우라늄 보관 중재안을 논의했으나 결렬. (이미지: AI 생성 시뮬레이션)</p>
+      </div>
+
+      <div class="p2-body">
+        <p>이란 외교장관 아바스 아라그치는 4월 27일 직전 모스크바·도하·리야드·이슬라마바드를 잇는 다중 채널을 가동했다.</p>
+        <p>이란이 미국에 보낸 신제안 골자는 "미국 항구 봉쇄 해제+종전 → 호르무즈 전 선박 재개방, 핵은 후속 단계"였다.</p>
+        <p>트럼프는 4월 27일 백악관에서 안보팀과 제안을 검토했고 4월 28일 회의에서 "맘에 들지 않는다(doesn't love it)"고 표명했다.</p>
+        <p>마르코 루비오 국무장관은 "예상보다는 낫다"면서도 "어떤 합의든 핵 무기로의 질주(sprinting)를 결정적으로(definitively) 막아야 한다"고 단서를 달았다.</p>
+        <p>트럼프는 4월 29일 Axios 인터뷰에서 "봉쇄가 폭격보다 다소 더 효과적이다. 그들은 속을 채운 돼지처럼 질식하고 있다"고 발언했다.</p>
+        <p>이란 페제시키안 대통령은 4월 27일 "압력·위협·포위(siege) 하에서는 협상하지 않는다"고 못 박았다.</p>
+        <p>5월 1일 페제시키안은 미 봉쇄를 "사실상 군사작전의 연장(extension of military operations)"이자 "참을 수 없는(intolerable)" 조치로 규정했다.</p>
+        <p>이란 의회의장 모하마드 바게르 갈리바프는 "이 기만적 계획을 분쇄할 것"이라고 응수했다.</p>
+        <p>익명의 이란 안보 고위 당국자는 Press TV를 통해 "실제적·전례 없는 행동(practical and unprecedented action)"으로 대응할 것이라고 위협했다(이란 관영 단일 출처).</p>
+        <p>IRGC 항공우주군 사령관 마지드 무사비는 5월 1일 "당신들의 군함도 같은 일을 겪을 것"이라고 미군을 위협했다.</p>
+        <p>모즈타바 하메네이 최고지도자는 4월 30일(페르시아만의 날) "외국인들에게 호르무즈 해저 외엔 자리가 없다"고 발언했다.</p>
+        <p>푸틴은 4월 29일 통화에서 "이란 핵 프로그램 이견 해소를 위한 다수 제안"을 내놨다고 우샤코프 보좌관은 전했다.</p>
+        <p>트럼프는 5월 1일 의회에 "적대행위 종료" 서한을 보내 War Powers 60일 시한을 우회했다.</p>
+        <p>이란은 5월 1일 이슬라마바드를 통해 갱신된 평화 제안을 다시 전달했다는 보도가 나왔다.</p>
+        <p>5월 2일 트럼프는 "이란이 받아들일 수 없는 요구를 한다"며 "조기 종전은 없다"고 재확인했다.</p>
+        <p>5일간 미·이란은 직접 사격 교환은 없었으나 봉쇄·제재·언어 공방으로 외교 정면충돌이 격화됐다.</p>
+      </div>
+
+      <div class="source-box">
+        <span class="label">SOURCES</span>
+        Al Jazeera (4/27, 4/28, 4/29, 5/1, 5/2 라이브) · Axios (4/27, 4/29) · CNBC (4/27, 5/1) · Bloomberg / Moscow Times (4/29 푸틴 통화) · Foreign Policy / Washington Times / AP (4/28~29 그로시) · Times of Israel (4/30 모즈타바) · CBS / PBS (5/1 의회 서한)
+      </div>
+
+      <!-- SANCTIONS TABLE -->
+      <div class="camp-table-wrap" style="margin-top: 18px;">
+        <div class="table-title">제재·외교조치 표 — 5일 윈도우 신규 7건</div>
+        <div class="table-sub">2026.04.27 — 05.01 · OFAC·UAE·이란·미 백악관 발표 종합</div>
+        <table class="sanctions">
+          <thead>
+            <tr><th>일자</th><th>주체</th><th>조치</th><th>대상</th><th>출처</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="date">04/27</td>
+              <td class="actor">이란→미국 (파키스탄 중재)</td>
+              <td class="act">신제안 전달</td>
+              <td class="target">호르무즈 재개방·핵 후순위</td>
+              <td class="src">Axios / Foreign Policy</td>
+            </tr>
+            <tr>
+              <td class="date">04/28</td>
+              <td class="actor">UAE</td>
+              <td class="act">OPEC·OPEC+ 동시 탈퇴 선언 (5/1 발효)</td>
+              <td class="target">카르텔 거버넌스</td>
+              <td class="src">Al Jazeera / WAM / Bloomberg</td>
+            </tr>
+            <tr>
+              <td class="date">04/29</td>
+              <td class="actor">미 재무부</td>
+              <td class="act">이란 연계 중국 화학 부품 기업 6곳 제재</td>
+              <td class="target">우회 부품 공급망</td>
+              <td class="src">Wikipedia Timeline / 미 재무부</td>
+            </tr>
+            <tr>
+              <td class="date">04/30</td>
+              <td class="actor">UAE 외교부</td>
+              <td class="act">자국민 이란·레바논·이라크 여행금지</td>
+              <td class="target">자국민 보호</td>
+              <td class="src">UAE MOFA / Gulf News</td>
+            </tr>
+            <tr>
+              <td class="date">05/01</td>
+              <td class="actor">미 OFAC</td>
+              <td class="act">SDN 신규 등재 — 개인 6명·단체 21개·선박 1척</td>
+              <td class="target">Pirouzan, Ghasemi Rad, Tahayyori, Mohammad Rezaei 형제, Li Xinchun 등</td>
+              <td class="src">OFAC sb0483 / Recent Actions 20260501</td>
+            </tr>
+            <tr>
+              <td class="date">05/01</td>
+              <td class="actor">미 OFAC</td>
+              <td class="act">글로벌 경보 — "호르무즈 통항료 지불 = 제재 위험"</td>
+              <td class="target">전 세계 선사·보험사·정부</td>
+              <td class="src">OFAC Alert</td>
+            </tr>
+            <tr>
+              <td class="date">05/01</td>
+              <td class="actor">미 백악관</td>
+              <td class="act">의회에 "적대행위 종료" 서한 (WPR 60일 우회)</td>
+              <td class="target">마이크 존슨·척 그래슬리</td>
+              <td class="src">CBS / PBS / CNBC</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </article>
+
+    <!-- SIDE — CAMP TABLE -->
+    <aside class="p2-side">
+      <h3 class="sub-head">진영별 입장 비교 — 9개 진영</h3>
+      <div class="camp-table-wrap">
+        <div class="table-title">5일 윈도우 한 줄 입장 + 핵심 인용</div>
+        <div class="table-sub">2026.04.27 — 05.02 · 편집부 정리</div>
+        <table class="camp">
+          <thead>
+            <tr><th style="width:20%">진영</th><th>한 줄 입장 / 핵심 인용</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="camp-name"><span class="flag"></span>미국<br/><span style="font-size:10px;color:#666;font-weight:500">트럼프 행정부</span></td>
+              <td>봉쇄 유지·종전 거부, 핵 폐기까지 압박<br/><span style="font-style:italic;color:#444;">"봉쇄가 폭격보다 다소 더 효과적이다(somewhat more effective than the bombing)."</span><br/><span style="font-family:'Noto Sans KR',sans-serif;font-weight:600;font-size:10px;color:var(--accent);">— 트럼프, 4/29 Axios</span></td>
+            </tr>
+            <tr>
+              <td class="camp-name"><span class="flag"></span>이란</td>
+              <td>봉쇄=군사작전, 핵 협상 후순위로 분리<br/><span style="font-style:italic;color:#444;">"압력·위협·포위 하에서는 협상하지 않는다(will not negotiate under pressure)."</span><br/><span style="font-family:'Noto Sans KR',sans-serif;font-weight:600;font-size:10px;color:var(--accent);">— 페제시키안, 4/27</span></td>
+            </tr>
+            <tr>
+              <td class="camp-name"><span class="flag"></span>이스라엘</td>
+              <td>미국과 군사 공동태세, 헤즈볼라 표적 공습 지속<br/><span style="font-style:italic;color:#444;">"이란을 재차 타격할 수 있다."</span><br/><span style="font-family:'Noto Sans KR',sans-serif;font-weight:600;font-size:10px;color:var(--accent);">— 카츠 이스라엘 국방장관, 5/1</span></td>
+            </tr>
+            <tr>
+              <td class="camp-name"><span class="flag"></span>EU / IAEA</td>
+              <td>핵 검증 불능 경고, 다자 외교 호소<br/><span style="font-style:italic;color:#444;">"이란 60% 농축 우라늄 약 440파운드를 검증할 수 없다(haven't been able to inspect)."</span><br/><span style="font-family:'Noto Sans KR',sans-serif;font-weight:600;font-size:10px;color:var(--accent);">— 그로시 IAEA 사무총장, 4/28</span></td>
+            </tr>
+            <tr>
+              <td class="camp-name"><span class="flag"></span>중국</td>
+              <td>군사 직개입 회피, 3/31 5포인트 평화안 기조 유지<br/><span style="color:#666;font-size:11px;">5일 윈도우 내 신규 공식 입장 없음. OFAC 등재된 Li Xinchun으로 마찰 요소 추가.</span></td>
+            </tr>
+            <tr>
+              <td class="camp-name"><span class="flag"></span>러시아</td>
+              <td>정전 연장 지지, 우라늄 보관 중재 제의<br/><span style="font-style:italic;color:#444;">"솔직하고 사무적이었다(frank and businesslike)."</span><br/><span style="font-family:'Noto Sans KR',sans-serif;font-weight:600;font-size:10px;color:var(--accent);">— 우샤코프 크렘린 보좌관, 4/29 푸틴-트럼프 통화</span></td>
+            </tr>
+            <tr>
+              <td class="camp-name"><span class="flag"></span>사우디</td>
+              <td>호르무즈 재개방·정전 환영, 이란과 외교장관 통화 조율<br/><span style="color:#666;font-size:11px;">5일 윈도우 내 신규 공식 성명 미공개. 이란-사우디 외교장관 4/26~27 통화.</span></td>
+            </tr>
+            <tr>
+              <td class="camp-name"><span class="flag"></span>UAE</td>
+              <td>OPEC·OPEC+ 동시 탈퇴, 자국민 이란·레바논·이라크 여행금지<br/><span style="font-style:italic;color:#444;">"국가 이익(national interests)에 따른 결정이다."</span><br/><span style="font-family:'Noto Sans KR',sans-serif;font-weight:600;font-size:10px;color:var(--accent);">— UAE 에너지장관, 4/28 WAM</span></td>
+            </tr>
+            <tr>
+              <td class="camp-name"><span class="flag"></span>튀르키예<br/>·카타르</td>
+              <td>카타르: Pearl GTL 피격 후 중재 채널 재개. 튀르키예: 5일 내 공식 발화 미확인<br/><span style="font-style:italic;color:#444;">"중재 채널은 다시 가동된다."</span><br/><span style="font-family:'Noto Sans KR',sans-serif;font-weight:600;font-size:10px;color:var(--accent);">— 카타르 외교장관, 아라그치와 4/26~27 통화</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="source-box" style="margin-top:14px;">
+        <span class="label">PAGE 2 SOURCES</span>
+        Al Jazeera · Axios · Bloomberg · Foreign Policy · WAM · UAE MOFA · Gulf News · Press TV · OFAC · CBS · PBS · CNBC · Times of Israel · Moscow Times
+      </div>
+    </aside>
+  </div>
+
+  <div class="page-footer">
+    <span>이란 전황 데일리 · 국제·외교</span>
+    <span class="pg-num">— 2 —</span>
+    <span>2026.05.02 (토) · INTERNATIONAL</span>
+  </div>
+</section>
+<div class="page-break"></div>
+
+<!-- =========================== PAGE 3 =========================== -->
+<section class="page">
+  <header class="section-header">
+    <div class="label">분석<span class="dot">·</span>사설</div>
+    <div class="meta">사설 · 전쟁의 향방 · 한반도 영향 &nbsp;|&nbsp; PAGE 03</div>
+  </header>
+
+  <div class="p3-grid">
+    <!-- EDITORIAL -->
+    <article class="editorial">
+      <div class="ed-tag" style="margin-top:6px;">사설 · OPINION</div>
+      <h3>호르무즈 64일,<br/>한국은 무엇을<br/>준비하는가</h3>
+      <div class="ed-byline">by <b style="color:#222">편집장</b> · 2026-05-02</div>
+
+      <p>미국과 이란의 정면충돌이 64일째 이어지고 있다. 5일 윈도우 사이 직접 사격 교환은 없었지만, 트럼프 행정부의 호르무즈 봉쇄와 이란의 통항 통제는 한층 굳어졌다. 5월 1일 트럼프 대통령이 의회에 "적대행위가 종료됐다"고 통보하며 전쟁권한법 60일 시한을 우회한 사실은 미국이 이 봉쇄를 사실상 무기한 유지할 의지를 드러냈다는 점에서 의미가 작지 않다. 같은 날 미 재무부 OFAC이 한국·일본·유럽 선사들에게 "이란이 요구하는 통항료를 지불하면 제재 위험"이라는 경보를 발령한 것은 한국 정부와 산업계에 직접적인 통첩이다.</p>
+
+      <p>이는 단순한 중동 위기가 아니라 글로벌 무역·에너지 질서의 시험대다. 4월 30일 브렌트유는 장중 배럴당 126달러까지 치솟아 4년 만의 와타임 하이를 기록했고, 5월 1일에는 이란 신제안 보도로 108달러로 되돌아갔다. 한 주 17%의 진폭은 시장이 외교 한 마디에 출렁이고 있음을 보여준다. UAE의 OPEC·OPEC+ 동시 탈퇴는 카르텔 거버넌스의 균열까지 더했다.</p>
+
+      <p>한반도에는 세 갈래 충격이 동시에 닿는다. 첫째, 한국 선박 26척이 호르무즈에 발이 묶였다. 정병하 외교장관 특사가 4월 22일 테헤란에서 협의했지만 이란은 "사전 협의·통항료" 요구를 굽히지 않았고, 한국 정부는 "통항료 지불 불가"라는 원칙을 지켰다. 둘째, 한국이 수입하는 원유의 70.7%가 중동산이며 그 95%가 호르무즈를 통과한다. 산업부는 "비축유 방출 없이 4~5월을 넘긴다"고 했지만 7월 이후가 변수다. 셋째, 원/달러 환율은 5월 1일 1,485원으로 약세 전환됐고 정유·해운·중공업은 이미 압박을 받고 있다.</p>
+
+      <p>원칙은 분명하다. 자유 항행과 안전 보장이라는 국제규범을 흔들림 없이 지키되, 비축유·다변화·재외국민 보호를 동시에 가동해야 한다. 호르무즈는 멀지만, 한국 경제의 정맥은 그곳을 흐른다.</p>
+
+      <div class="source-box" style="margin-top:14px;">
+        <span class="label">EDITORIAL DESK</span>
+        본 사설은 본지 편집장 명의로 작성되었으며, 5일 윈도우(2026-04-27~05-02) 보도 자료에 근거한다.
+      </div>
+    </article>
+
+    <!-- ANALYSIS -->
+    <article class="analysis">
+      <span class="kicker">분석 · ANALYSIS</span>
+      <h2 class="headline">전쟁의 향방… <span class="accent">"봉쇄가 새 무기"</span></h2>
+      <div class="deck">공습 휴지에 경제전·법률전·해상전 3축으로 이동… 5월 분기점은 핵·통항료·미군 추가타격</div>
+      <div class="byline"><span class="name">by 편집장</span> · 분석 데스크 · 2026-05-02</div>
+
+      <div class="photo-placeholder">
+        <div class="photo-frame"><img src="images/photo3_threefronts.png" alt="3축 전선 — 폭풍 속 유조선 실루엣" /></div>
+        <p class="photo-caption"><strong>3축 전선</strong> — 직접 사격 교환은 없었지만 경제전·법률전·해상전이 동시 가동되며 봉쇄가 새로운 전쟁 무기로 자리잡고 있다. (이미지: AI 생성 시뮬레이션)</p>
+      </div>
+
+      <div class="analysis-body">
+        <p>5일 윈도우 동안 미·이란 직접 사격 교환은 없었으나, 전선은 세 축으로 이동했다.</p>
+        <p>첫 번째 축은 <b>경제전</b>이다. 미 해군은 봉쇄로 일일 5억 달러(UANI 추산) 손실을 이란에 강요하고 있다.</p>
+        <p>이란 원유 선적은 일 2.1mbpd에서 0.567mbpd로 73% 급감했고, 리알은 1,810,000/달러로 1년간 89% 평가절하됐다.</p>
+        <p>두 번째 축은 <b>법률전</b>이다. 트럼프의 5/1 "적대행위 종료" 서한과 헤그세스의 "60일 시계 정지" 주장은 War Powers를 둘러싼 정면충돌이다.</p>
+        <p>브레난센터·민주당·법학계는 "법문에 정지·종료 조항이 없다"며 위헌 논쟁을 예고했다.</p>
+        <p>세 번째 축은 <b>해상·해협 통제전</b>이다. 미군은 약 44척을 회항·억류하고, 이란 IRGC는 호르무즈 통항료를 무기화했다.</p>
+        <p>OFAC의 5월 1일 통항료 제재 경보는 양쪽이 모두 통항을 무기로 쓴다는 뜻이다.</p>
+        <p class="scenario"><b>시나리오 A — 단기 협상 타결:</b> 이란의 5/1 신제안이 핵 검증 조항을 더해 받아들여지면 봉쇄는 60~90일 안에 풀린다.</p>
+        <p class="scenario"><b>시나리오 B — 봉쇄 장기화:</b> 트럼프가 War Powers 우회 논리를 관철하면 봉쇄는 6개월 이상 이어질 가능성이 크다.</p>
+        <p class="scenario"><b>시나리오 C — 군사 재충돌:</b> Axios가 보도한 "단기간 강력한 추가 타격(short and powerful)" 옵션이 발동되면 유가는 즉시 130달러대를 위협한다.</p>
+        <p>시나리오 B와 C 사이에서 핵심 변수는 IAEA의 검증 접근권 회복 여부다.</p>
+        <p>그로시 사무총장의 "60% 우라늄 440파운드 검증 불능" 경고가 해소되지 않으면 미·이스라엘 군사 옵션 압력이 커진다.</p>
+        <p>헤즈볼라-이스라엘 전선은 5일간 9~32명(매체별 차이) 사상자를 낳으며 비공식 전쟁이 계속됐다.</p>
+        <p>헤즈볼라는 자폭 드론으로 5월 1일 이스라엘군 2명을 부상시켰고, 카셈 사무총장은 "저항은 계속된다"며 협상을 거부했다.</p>
+        <p>모즈타바 하메네이의 4/30 발언과 IRGC 무사비 사령관의 5/1 위협은 이란 강경파의 발언권 강화 신호다.</p>
+        <p>5월 분기점은 ① 이란 신제안의 핵 조항 추가 여부 ② 통항료 제재의 글로벌 선사 영향 ③ 미군 추가 타격 발동 시점이다.</p>
+        <p>한국·일본·유럽은 통항료 거부 시 발묶임, 지불 시 제재의 양자택일 압박을 받고 있다.</p>
+        <p>봉쇄 64일째, 전쟁은 끝나지 않았고 형태만 바뀌었다.</p>
+      </div>
+
+      <div class="source-box">
+        <span class="label">SOURCES</span>
+        Al Jazeera 5/1 Day 63 · Axios 4/30 인용 · Military Times 4/30 · Washington Post 4/29 · Bloomberg 4/29 · IAEA AP 4/28 · Reuters · UANI 4/30 추산
+      </div>
+    </article>
+
+    <!-- KOREA BOX -->
+    <aside class="korea-box">
+      <h3>한반도 영향<span class="small">정부·산업·재외국민 — 10대 포인트</span></h3>
+      <ol class="korea-list">
+        <li><b>외교부:</b> 정병하 외교장관 특사 4/22 아라그치 면담, 4/30 박일 대변인 정례브리핑 — "통항 결정은 선사 몫".</li>
+        <li><b>이란 측 요구:</b> "사전 협의 후 지정 항로 통과 + 통항 안내 비용 지불" / 한국 정부 "통항료 지불 불가" 원칙 견지.</li>
+        <li><b>OFAC 경보:</b> 5/1 "통항료 지불 = 제재 위험" 발령 — 한국 선사 의사결정 양자택일 압박.</li>
+        <li><b>산업부(김정관 장관):</b> 비축유 방출 없이 4~5월 넘긴다, 5월 원유 확보율 평시 대비 80%.</li>
+        <li><b>비축유 스와프:</b> 7월까지 연장 검토, 5월 신청분 1,600만 배럴.</li>
+        <li><b>에너지 의존도:</b> 한국 원유 수입 70.7%가 중동, 그 95%가 호르무즈 통과.</li>
+        <li><b>환율:</b> 4/30 원/달러 1,473원 → 5/1 1,485원, 약세 전환.</li>
+        <li><b>해운:</b> 한국 선박 26척(유조선 11·기타 15) 호르무즈 발묶임 장기화.</li>
+        <li><b>정유·중공업:</b> SK이노베이션·현대오일뱅크·GS칼텍스 마진 변동성 확대.</li>
+        <li><b>재외국민:</b> UAE 4/30 자국민 이란·레바논·이라크 여행금지 발령에 한국 외교부도 위험경보 단계 재점검 중.</li>
+      </ol>
+      <div class="source-box" style="margin-top:12px;">
+        <span class="label">SOURCES</span>
+        Korea Herald 4/30 · Korea Times 4/23 · 외교부 정례브리핑 4/30 · ZDNet Korea 4/30 · Trading Economics 4/30~5/1 · OFAC Alert 5/1 · UAE MOFA 4/30
+      </div>
+    </aside>
+  </div>
+
+  <div class="page-footer">
+    <span>이란 전황 데일리 · 분석·사설</span>
+    <span class="pg-num">— 3 —</span>
+    <span>2026.05.02 (토) · OPINION &amp; ANALYSIS</span>
+  </div>
+</section>
+<div class="page-break"></div>
+
+<!-- =========================== PAGE 4 =========================== -->
+<section class="page">
+  <header class="section-header">
+    <div class="label">데이터<span class="dot">·</span>인포그래픽</div>
+    <div class="meta">5일 타임라인 · 유가 차트 · 사상자 표 · 호르무즈 모식도 &nbsp;|&nbsp; PAGE 04</div>
+  </header>
+
+  <div class="p4-section">
+
+    <!-- INFOGRAPHIC 1: TIMELINE -->
+    <div class="infographic">
+      <div class="ig-head">
+        <h3><span class="num">No.01 ·</span> 5일 타임라인 (2026.04.27 → 05.02)</h3>
+        <div class="meta">군사·제재=진홍 · 외교=검정 · 시장=금색</div>
+      </div>
+      <div class="timeline-svg-wrap">
+        <svg viewBox="0 0 1140 380" width="100%" height="380" xmlns="http://www.w3.org/2000/svg" style="font-family: 'Noto Sans KR', sans-serif;">
+          <rect x="0" y="0" width="1140" height="380" fill="#fafaf7" />
+          <line x1="60" y1="190" x2="1100" y2="190" stroke="#1a1a1a" stroke-width="2" />
+          <g stroke="#888" stroke-width="0.5" stroke-dasharray="3,3">
+            <line x1="60" y1="40" x2="60" y2="340" />
+            <line x1="1100" y1="40" x2="1100" y2="340" />
+          </g>
+
+          <g font-family="Playfair Display, serif" font-weight="900" font-size="13" fill="#8B0000" text-anchor="middle">
+            <g>
+              <circle cx="170" cy="190" r="9" fill="#1a1a1a" />
+              <circle cx="170" cy="190" r="4" fill="#fafaf7" />
+              <text x="170" y="215" font-size="14">04 / 27</text>
+              <text x="170" y="230" font-size="9" fill="#666" font-weight="500">MON</text>
+            </g>
+            <g>
+              <circle cx="325" cy="190" r="9" fill="#1a1a1a" />
+              <circle cx="325" cy="190" r="4" fill="#fafaf7" />
+              <text x="325" y="215" font-size="14">04 / 28</text>
+              <text x="325" y="230" font-size="9" fill="#666" font-weight="500">TUE</text>
+            </g>
+            <g>
+              <circle cx="480" cy="190" r="9" fill="#8B0000" />
+              <circle cx="480" cy="190" r="4" fill="#fafaf7" />
+              <text x="480" y="215" font-size="14">04 / 29</text>
+              <text x="480" y="230" font-size="9" fill="#666" font-weight="500">WED</text>
+            </g>
+            <g>
+              <circle cx="635" cy="190" r="9" fill="#8B0000" />
+              <circle cx="635" cy="190" r="4" fill="#fafaf7" />
+              <text x="635" y="215" font-size="14">04 / 30</text>
+              <text x="635" y="230" font-size="9" fill="#666" font-weight="500">THU</text>
+            </g>
+            <g>
+              <circle cx="845" cy="190" r="11" fill="#8B0000" stroke="#1a1a1a" stroke-width="2" />
+              <circle cx="845" cy="190" r="4" fill="#fafaf7" />
+              <text x="845" y="215" font-size="14">05 / 01</text>
+              <text x="845" y="230" font-size="9" fill="#666" font-weight="500">FRI · DAY 63</text>
+            </g>
+            <g>
+              <circle cx="1030" cy="190" r="11" fill="#fafaf7" stroke="#1a1a1a" stroke-width="3" />
+              <text x="1030" y="215" font-size="14">05 / 02</text>
+              <text x="1030" y="230" font-size="9" fill="#666" font-weight="500">SAT · DAY 64 · 발행</text>
+            </g>
+          </g>
+
+          <!-- 04/27 above -->
+          <g font-family="Noto Sans KR, sans-serif" font-size="10" fill="#1a1a1a">
+            <line x1="170" y1="180" x2="170" y2="155" stroke="#1a1a1a" stroke-width="1" />
+            <rect x="92" y="100" width="156" height="55" fill="#fafaf7" stroke="#1a1a1a" stroke-width="0.8" />
+            <text x="100" y="115" font-weight="700" fill="#8B0000" font-size="9">[외교/이란→미국]</text>
+            <text x="100" y="128" font-size="9.5">파키스탄 중재로 신제안</text>
+            <text x="100" y="140" font-size="9.5">— 호르무즈 재개방·</text>
+            <text x="100" y="152" font-size="9.5">핵 후순위 패키지</text>
+          </g>
+          <!-- 04/27 below -->
+          <g font-family="Noto Sans KR, sans-serif" font-size="10">
+            <line x1="170" y1="200" x2="170" y2="245" stroke="#8B0000" stroke-width="1" />
+            <rect x="92" y="245" width="156" height="42" fill="#fafaf7" stroke="#8B0000" stroke-width="1" />
+            <text x="100" y="259" font-weight="700" fill="#8B0000" font-size="9">[군사/IDF→레바논]</text>
+            <text x="100" y="271" font-size="9.5">베카 계곡 20+표적</text>
+            <text x="100" y="283" font-size="9.5">동시 타격 (사상 14·37)</text>
+          </g>
+
+          <!-- 04/28 above -->
+          <g font-family="Noto Sans KR, sans-serif" font-size="10">
+            <line x1="325" y1="180" x2="325" y2="155" stroke="#1a1a1a" stroke-width="1" />
+            <rect x="247" y="100" width="156" height="55" fill="#fafaf7" stroke="#1a1a1a" stroke-width="0.8" />
+            <text x="255" y="115" font-weight="700" fill="#8B0000" font-size="9">[외교/UAE]</text>
+            <text x="255" y="128" font-size="9.5">OPEC·OPEC+ 동시</text>
+            <text x="255" y="140" font-size="9.5">탈퇴 선언 (5/1 발효)</text>
+            <text x="255" y="152" font-size="9.5" fill="#666">59년 만의 결단</text>
+          </g>
+          <g font-family="Noto Sans KR, sans-serif" font-size="10">
+            <line x1="325" y1="200" x2="325" y2="245" stroke="#1a1a1a" stroke-width="1" />
+            <rect x="247" y="245" width="156" height="42" fill="#fafaf7" stroke="#1a1a1a" stroke-width="0.8" />
+            <text x="255" y="259" font-weight="700" fill="#8B0000" font-size="9">[외교/IAEA]</text>
+            <text x="255" y="271" font-size="9.5">그로시 "60% 농축</text>
+            <text x="255" y="283" font-size="9.5">우라늄 440파운드 잔류"</text>
+          </g>
+
+          <!-- 04/29 -->
+          <g font-family="Noto Sans KR, sans-serif" font-size="10">
+            <line x1="480" y1="180" x2="480" y2="155" stroke="#8B0000" stroke-width="1" />
+            <rect x="402" y="100" width="156" height="55" fill="#fafaf7" stroke="#8B0000" stroke-width="1" />
+            <text x="410" y="115" font-weight="700" fill="#8B0000" font-size="9">[외교/미국]</text>
+            <text x="410" y="128" font-size="9.5">트럼프 Axios 인터뷰</text>
+            <text x="410" y="140" font-size="9.5">"폭격보다 효과적"</text>
+            <text x="410" y="152" font-size="9.5">봉쇄 유지 공언</text>
+          </g>
+          <g font-family="Noto Sans KR, sans-serif" font-size="10">
+            <line x1="480" y1="200" x2="480" y2="245" stroke="#1a1a1a" stroke-width="1" />
+            <rect x="402" y="245" width="156" height="42" fill="#fafaf7" stroke="#1a1a1a" stroke-width="0.8" />
+            <text x="410" y="259" font-weight="700" fill="#8B0000" font-size="9">[외교/미·러]</text>
+            <text x="410" y="271" font-size="9.5">트럼프-푸틴 90분 통화</text>
+            <text x="410" y="283" font-size="9.5">우라늄 보관 중재 거부</text>
+          </g>
+
+          <!-- 04/30 -->
+          <g font-family="Noto Sans KR, sans-serif" font-size="10">
+            <line x1="635" y1="180" x2="635" y2="155" stroke="#daa520" stroke-width="2" />
+            <rect x="557" y="100" width="156" height="55" fill="#fafaf7" stroke="#daa520" stroke-width="1.5" />
+            <text x="565" y="115" font-weight="700" fill="#8B0000" font-size="9">[시장 ★ 와타임 하이]</text>
+            <text x="565" y="128" font-size="9.5" font-weight="700">브렌트 장중 $126.41</text>
+            <text x="565" y="140" font-size="9.5">종가 $114.01</text>
+            <text x="565" y="152" font-size="9.5" fill="#666">4년 만 최고치</text>
+          </g>
+          <g font-family="Noto Sans KR, sans-serif" font-size="10">
+            <line x1="635" y1="200" x2="635" y2="245" stroke="#8B0000" stroke-width="1" />
+            <rect x="557" y="245" width="156" height="42" fill="#fafaf7" stroke="#8B0000" stroke-width="1" />
+            <text x="565" y="259" font-weight="700" fill="#8B0000" font-size="9">[외교/이란]</text>
+            <text x="565" y="271" font-size="9.5">모즈타바 하메네이</text>
+            <text x="565" y="283" font-size="9.5">"호르무즈 해저 외엔…"</text>
+          </g>
+
+          <!-- 05/01 -->
+          <g font-family="Noto Sans KR, sans-serif" font-size="10">
+            <line x1="845" y1="180" x2="845" y2="155" stroke="#8B0000" stroke-width="2" />
+            <rect x="755" y="80" width="180" height="75" fill="#f4f1e8" stroke="#8B0000" stroke-width="1.8" />
+            <text x="763" y="95" font-weight="900" fill="#8B0000" font-size="10">[정치/제재/미국 ★]</text>
+            <text x="763" y="108" font-size="9.5" font-weight="700">의회 "적대행위 종료" 서한</text>
+            <text x="763" y="120" font-size="9.5">— WPR 60일 시한 우회</text>
+            <text x="763" y="133" font-size="9.5" font-weight="700">OFAC 신규 SDN 등재</text>
+            <text x="763" y="146" font-size="9.5">개인6·단체21·선박1</text>
+          </g>
+          <g font-family="Noto Sans KR, sans-serif" font-size="10">
+            <line x1="845" y1="200" x2="845" y2="245" stroke="#8B0000" stroke-width="1" />
+            <rect x="755" y="245" width="180" height="55" fill="#fafaf7" stroke="#8B0000" stroke-width="1" />
+            <text x="763" y="259" font-weight="700" fill="#8B0000" font-size="9">[제재/시장 통첩]</text>
+            <text x="763" y="271" font-size="9.5">"통항료 지불 = 제재 위험"</text>
+            <text x="763" y="283" font-size="9.5">브렌트 종가 $108.10</text>
+            <text x="763" y="295" font-size="9.5" fill="#666">남부 레바논 사상 9~32명</text>
+          </g>
+
+          <!-- 05/02 -->
+          <g font-family="Noto Sans KR, sans-serif" font-size="10">
+            <line x1="1030" y1="180" x2="1030" y2="155" stroke="#1a1a1a" stroke-width="1" />
+            <rect x="940" y="100" width="135" height="55" fill="#fafaf7" stroke="#1a1a1a" stroke-width="0.8" />
+            <text x="948" y="115" font-weight="700" fill="#8B0000" font-size="9">[발행일 · DAY 64]</text>
+            <text x="948" y="128" font-size="9.5">트럼프 "조기 종전 없다"</text>
+            <text x="948" y="140" font-size="9.5">"이란 받아들일 수 없는</text>
+            <text x="948" y="152" font-size="9.5">요구" 봉쇄 강도 유지</text>
+          </g>
+
+          <!-- LEGEND -->
+          <g font-family="Noto Sans KR, sans-serif" font-size="10" fill="#444">
+            <text x="60" y="365" font-weight="700" fill="#1a1a1a" font-size="10">범례:</text>
+            <circle cx="100" cy="361" r="5" fill="#8B0000" />
+            <text x="110" y="365">군사·제재</text>
+            <circle cx="180" cy="361" r="5" fill="#1a1a1a" />
+            <text x="190" y="365">외교</text>
+            <circle cx="240" cy="361" r="5" fill="#daa520" />
+            <text x="250" y="365">시장</text>
+            <circle cx="295" cy="361" r="5" fill="#fafaf7" stroke="#1a1a1a" stroke-width="2" />
+            <text x="305" y="365">발행일 (5/2)</text>
+            <text x="800" y="365" font-style="italic" fill="#666">★ = 5일 윈도우 핵심 분기점</text>
+          </g>
+
+          <text x="60" y="30" font-family="Noto Serif KR, serif" font-weight="900" font-size="14" fill="#1a1a1a">2026.04.27 — 05.02 · 5 DAYS / 6 EVENTS / 1 WAR</text>
+          <text x="1100" y="30" font-family="Playfair Display, serif" font-style="italic" font-weight="700" font-size="11" fill="#8B0000" text-anchor="end">DAY 60 → DAY 64 OF THE BLOCKADE</text>
+        </svg>
+      </div>
+      <div class="source-box" style="margin-top:10px;">
+        <span class="label">SOURCES</span>
+        Al Jazeera Live (4/27~5/2) · Axios · CNBC · Bloomberg · OFAC · CENTCOM · IAEA · WAM · Press TV · 외교부 정례브리핑
+      </div>
+    </div>
+
+    <!-- INFOGRAPHIC 2 + 3 -->
+    <div class="infographic-2col">
+      <div class="infographic">
+        <div class="ig-head">
+          <h3><span class="num">No.02 ·</span> 브렌트유 종가 추이</h3>
+          <div class="meta">USD/배럴 · 5일</div>
+        </div>
+        <svg viewBox="0 0 380 220" width="100%" height="220" xmlns="http://www.w3.org/2000/svg" style="font-family:'Noto Sans KR',sans-serif;">
+          <rect x="0" y="0" width="380" height="220" fill="#fafaf7" />
+
+          <g stroke="#ccc" stroke-width="0.5">
+            <line x1="40" y1="40" x2="370" y2="40" />
+            <line x1="40" y1="80" x2="370" y2="80" />
+            <line x1="40" y1="120" x2="370" y2="120" />
+            <line x1="40" y1="160" x2="370" y2="160" />
+          </g>
+          <g font-size="9" fill="#888" font-family="Playfair Display, serif" font-weight="700">
+            <text x="35" y="44" text-anchor="end">$130</text>
+            <text x="35" y="84" text-anchor="end">$120</text>
+            <text x="35" y="124" text-anchor="end">$110</text>
+            <text x="35" y="164" text-anchor="end">$100</text>
+          </g>
+
+          <line x1="40" y1="180" x2="370" y2="180" stroke="#1a1a1a" stroke-width="1.5" />
+
+          <line x1="240" y1="46" x2="240" y2="180" stroke="#8B0000" stroke-width="0.5" stroke-dasharray="2,2" />
+          <circle cx="240" cy="46" r="4" fill="#8B0000" />
+          <text x="244" y="40" font-size="9" fill="#8B0000" font-weight="700" font-family="Playfair Display, serif">장중 $126.41</text>
+          <text x="244" y="51" font-size="8" fill="#8B0000">와타임 HIGH</text>
+
+          <polyline points="80,127 160,115 200,88 240,104 320,128"
+                    fill="none" stroke="#8B0000" stroke-width="2.5" />
+
+          <polyline points="80,127 160,115 200,88 240,104 320,128 320,180 80,180"
+                    fill="#8B0000" fill-opacity="0.08" stroke="none" />
+
+          <g>
+            <circle cx="80"  cy="127" r="4" fill="#1a1a1a" />
+            <circle cx="160" cy="115" r="4" fill="#1a1a1a" />
+            <circle cx="200" cy="88"  r="4" fill="#1a1a1a" />
+            <circle cx="240" cy="104" r="5" fill="#8B0000" stroke="#1a1a1a" stroke-width="1.5" />
+            <circle cx="320" cy="128" r="4" fill="#1a1a1a" />
+          </g>
+
+          <g font-size="9" font-family="Noto Sans KR, sans-serif" fill="#1a1a1a">
+            <text x="80" y="195" text-anchor="middle">04/26</text>
+            <text x="80" y="205" text-anchor="middle" font-weight="700">$108.23</text>
+            <text x="160" y="195" text-anchor="middle">04/28</text>
+            <text x="200" y="195" text-anchor="middle">04/29</text>
+            <text x="240" y="195" text-anchor="middle" fill="#8B0000" font-weight="700">04/30</text>
+            <text x="240" y="205" text-anchor="middle" fill="#8B0000" font-weight="700">$114.01</text>
+            <text x="320" y="195" text-anchor="middle">05/01</text>
+            <text x="320" y="205" text-anchor="middle" font-weight="700">$108.10</text>
+          </g>
+
+          <text x="40" y="22" font-family="Noto Serif KR, serif" font-weight="900" font-size="12" fill="#1a1a1a">한 주 진폭 17%</text>
+          <text x="370" y="22" font-family="Playfair Display, serif" font-style="italic" font-weight="700" font-size="10" fill="#8B0000" text-anchor="end">BRENT · WTI 5/1 $101.94</text>
+
+          <text x="200" y="78" font-size="8.5" fill="#444" text-anchor="middle">+6% 급등 (봉쇄 유지·Axios 보도)</text>
+          <text x="320" y="142" font-size="8.5" fill="#444" text-anchor="middle">-2.08%</text>
+        </svg>
+        <div style="font-family:'Noto Sans KR',sans-serif;font-size:10.5px;color:#444;line-height:1.55;margin-top:8px;border-top:1px dotted #aaa;padding-top:6px;">
+          <b style="color:var(--accent)">시작 04/26 $108.23</b> · 4/28 $111.26 · 4/29 +6%대 급등 · <b style="color:var(--accent)">4/30 종가 $114.01 (장중 $126.41 와타임 HIGH)</b> · <b style="color:var(--accent)">5/1 $108.10 (-2.08%)</b>. WTI 5/1 종가 $101.94. 한 주 진폭 약 17%.
+        </div>
+        <div class="source-box" style="margin-top:8px;">
+          <span class="label">SOURCES</span>
+          CNBC · CNN Business · Bloomberg · Euronews · Trading Economics
+        </div>
+      </div>
+
+      <div class="infographic">
+        <div class="ig-head">
+          <h3><span class="num">No.03 ·</span> 호르무즈 해협 모식도</h3>
+          <div class="meta">2026-05-02 현황</div>
+        </div>
+        <svg viewBox="0 0 380 220" width="100%" height="220" xmlns="http://www.w3.org/2000/svg" style="font-family:'Noto Sans KR',sans-serif;">
+          <rect x="0" y="0" width="380" height="220" fill="#e8e6dd" />
+          <g stroke="#d4d0c4" stroke-width="0.5" fill="none">
+            <path d="M0,40 Q40,35 80,40 T160,40 T240,40 T320,40 T400,40" />
+            <path d="M0,90 Q40,85 80,90 T160,90 T240,90 T320,90 T400,90" />
+            <path d="M0,140 Q40,135 80,140 T160,140 T240,140 T320,140 T400,140" />
+            <path d="M0,190 Q40,185 80,190 T160,190 T240,190 T320,190 T400,190" />
+          </g>
+
+          <path d="M 0,0 L 380,0 L 380,55 Q 320,68 280,60 Q 240,52 200,72 Q 160,90 120,75 Q 60,55 0,68 Z" fill="#c9c5b8" stroke="#1a1a1a" stroke-width="1.5" />
+          <text x="100" y="30" font-family="Noto Serif KR, serif" font-weight="900" font-size="16" fill="#1a1a1a">이란 (IRAN)</text>
+          <text x="100" y="46" font-size="9" fill="#444">IRGC 해군 통제</text>
+
+          <path d="M 0,220 L 380,220 L 380,165 Q 320,150 290,158 Q 260,170 235,160 Q 200,142 160,158 Q 100,178 40,162 Q 20,158 0,170 Z" fill="#bcb39a" stroke="#1a1a1a" stroke-width="1.5" />
+          <text x="200" y="195" font-family="Noto Serif KR, serif" font-weight="900" font-size="14" fill="#1a1a1a">오만 · UAE (무산담)</text>
+          <text x="200" y="210" font-size="9" fill="#444">OMAN · UAE (Musandam)</text>
+
+          <text x="40" y="100" font-family="Playfair Display, serif" font-style="italic" font-weight="700" font-size="11" fill="#5a5a5a">Persian Gulf</text>
+          <text x="40" y="113" font-size="9" fill="#666">페르시아만</text>
+
+          <text x="280" y="100" font-family="Playfair Display, serif" font-style="italic" font-weight="700" font-size="11" fill="#5a5a5a">Gulf of Oman</text>
+          <text x="280" y="113" font-size="9" fill="#666">→ 아라비아해</text>
+
+          <ellipse cx="200" cy="78" rx="14" ry="6" fill="#a9a08a" stroke="#1a1a1a" stroke-width="1" />
+          <text x="200" y="80" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="700">Larak</text>
+
+          <path d="M 30,90 Q 90,95 150,85 Q 200,72 250,90 Q 310,108 360,100" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="3,3" fill="none" />
+          <text x="20" y="135" font-size="9" fill="#1a1a1a" font-weight="700">이란 지정 항로 (이란 본토 ↔ Larak)</text>
+          <text x="20" y="146" font-size="8" fill="#666">※ 사전 협의 + 통항 안내 비용 요구</text>
+
+          <g>
+            <line x1="318" y1="68" x2="338" y2="88" stroke="#8B0000" stroke-width="3" />
+            <line x1="338" y1="68" x2="318" y2="88" stroke="#8B0000" stroke-width="3" />
+            <text x="345" y="72" font-size="9" fill="#8B0000" font-weight="700">미 해군</text>
+            <text x="345" y="83" font-size="9" fill="#8B0000" font-weight="700">1차 봉쇄선</text>
+            <text x="345" y="93" font-size="8" fill="#444">CENTCOM</text>
+          </g>
+          <g transform="translate(355,128)">
+            <rect x="-12" y="-3" width="24" height="6" fill="#1a1a1a" />
+            <polygon points="-12,-3 -16,0 -12,3" fill="#1a1a1a" />
+            <rect x="-3" y="-9" width="6" height="6" fill="#1a1a1a" />
+            <text x="0" y="18" font-size="8" fill="#1a1a1a" text-anchor="middle" font-weight="700">USS CSG</text>
+          </g>
+
+          <g>
+            <line x1="50" y1="68" x2="65" y2="83" stroke="#cc7722" stroke-width="2.5" />
+            <line x1="65" y1="68" x2="50" y2="83" stroke="#cc7722" stroke-width="2.5" />
+            <text x="20" y="60" font-size="8" fill="#cc7722" font-weight="700">2차 통제구역</text>
+          </g>
+
+          <g fill="#666">
+            <rect x="100" y="86" width="6" height="3" />
+            <rect x="115" y="89" width="6" height="3" />
+            <rect x="80" y="92" width="6" height="3" />
+            <rect x="265" y="86" width="6" height="3" />
+            <rect x="280" y="92" width="6" height="3" />
+            <rect x="250" y="89" width="6" height="3" />
+          </g>
+
+          <rect x="6" y="118" width="368" height="14" fill="#1a1a1a" opacity="0.85" />
+          <text x="12" y="129" font-size="9" fill="#fafaf7" font-weight="700">대기 상선 약 2,000척 (한국 26척 포함) · 통항 평시 대비 -95%</text>
+          <text x="370" y="129" font-size="8.5" fill="#fafaf7" text-anchor="end" font-style="italic">DAY 64</text>
+
+          <rect x="6" y="3" width="368" height="14" fill="#8B0000" />
+          <text x="12" y="14" font-size="9" fill="#fff" font-weight="700">호르무즈 해협 (Strait of Hormuz) — 2026-05-02</text>
+          <text x="370" y="14" font-size="8.5" fill="#fff" text-anchor="end" font-style="italic">OFAC ALERT 5/1</text>
+        </svg>
+        <div style="font-family:'Noto Sans KR',sans-serif;font-size:10.5px;color:#444;line-height:1.55;margin-top:8px;border-top:1px dotted #aaa;padding-top:6px;">
+          <b style="color:var(--accent)">미 해군 1차 봉쇄선</b>(CENTCOM, 약 44척 회항·억류, 4/30 기준) · <b>이란 지정 항로</b>(본토~Larak섬 영해) · <b style="color:var(--accent)">OFAC 5/1 경보</b> "통항료 지불 = 제재 위험" · <b style="color:var(--accent)">브렌트 5/1 $108.10 / 4/30 장중 와타임 하이 $126.41</b>.
+        </div>
+        <div class="source-box" style="margin-top:8px;">
+          <span class="label">SOURCES</span>
+          Al Jazeera 호르무즈 분석 4/28 · Wikipedia 2026 Strait of Hormuz crisis · CENTCOM 4/30 · UAE MOFA · OFAC Alert 5/1
+        </div>
+      </div>
+    </div>
+
+    <!-- INFOGRAPHIC 4: CASUALTY TABLE -->
+    <div class="infographic">
+      <div class="ig-head">
+        <h3><span class="num">No.04 ·</span> 사상자·피해 통계 (출처별 병기)</h3>
+        <div class="meta">D등급 항목 양측 병기 · 회색 셀 = 출처 격차 강조</div>
+      </div>
+      <table class="casualty">
+        <thead>
+          <tr><th style="width:38%">영역</th><th style="width:32%">수치</th><th style="width:30%">출처 / 시점</th></tr>
+        </thead>
+        <tbody>
+          <tr class="sub-section"><td colspan="3">A. 인적 피해 (D등급 양측 병기 항목 포함)</td></tr>
+          <tr class="discrepancy">
+            <td class="field">이란 측 사망 (누적)</td>
+            <td class="value">3,636명 (민간 1,701·군 1,221·미분류 714)<span class="alt">▲ 대안: 6,620명 이상 (Hengaw)</span><span class="alt">▲ IDF 주장: IRGC 6,000명+ / 부상 약 15,000명</span></td>
+            <td class="src">HRANA 2026-04-07 / Hengaw 2026-04-08 / IDF 2026-03-15</td>
+          </tr>
+          <tr>
+            <td class="field">이란 어린이 사망 (누적)</td>
+            <td class="value">254명 이상</td>
+            <td class="src">HRANA 2026-04-07</td>
+          </tr>
+          <tr>
+            <td class="field">이스라엘 측 사망 (누적)</td>
+            <td class="value">47명 (군 18·민간 28·계약자 1)</td>
+            <td class="src">IDF 2026-04-30</td>
+          </tr>
+          <tr>
+            <td class="field">이스라엘 측 부상 (누적)</td>
+            <td class="value">8,577명 (군 756 포함)</td>
+            <td class="src">IDF 2026-04-30</td>
+          </tr>
+          <tr>
+            <td class="field">미군 사망 (누적)</td>
+            <td class="value">15명 / 부상 500명 이상</td>
+            <td class="src">미 국방부 2026-04 후반</td>
+          </tr>
+          <tr>
+            <td class="field">레바논 측 사망 (3/2 이후)</td>
+            <td class="value">2,521명 / 부상 7,804명</td>
+            <td class="src">레바논 보건부 2026-04-27</td>
+          </tr>
+          <tr class="discrepancy">
+            <td class="field">5일 신규 — 남부 레바논 사망 (5/1)</td>
+            <td class="value">9명 / 13~15명 / 28~32명<span class="alt">※ 매체별 집계 차이 (특정 사건 vs 24시간 누적)</span></td>
+            <td class="src">Al Jazeera 9 / Al Monitor·레바논 보건부 13~15 / NNA·Drop Site 28~32</td>
+          </tr>
+
+          <tr class="sub-section"><td colspan="3">B. 인프라·경제 피해 (누적)</td></tr>
+          <tr>
+            <td class="field">의료시설 손상</td>
+            <td class="value">307곳</td>
+            <td class="src">이란 적신월사 2026-04-03</td>
+          </tr>
+          <tr>
+            <td class="field">병원 가동 중단 / 강제 대피</td>
+            <td class="value">13곳 / 7곳</td>
+            <td class="src">WHO 2026-04-03</td>
+          </tr>
+          <tr>
+            <td class="field">앰뷸런스·구조차량 파괴</td>
+            <td class="value">48대 + 응급 의료헬기 1대</td>
+            <td class="src">WHO 2026-04-03</td>
+          </tr>
+          <tr>
+            <td class="field">의료시설 공격 / 의료진 사망</td>
+            <td class="value">20건 이상 / 9명</td>
+            <td class="src">WHO 2026-04-03</td>
+          </tr>
+          <tr>
+            <td class="field">이란 누적 경제 손실</td>
+            <td class="value">약 1,450억 달러 (40일 전쟁 후)</td>
+            <td class="src">Al Arabiya 2026-04-10</td>
+          </tr>
+          <tr>
+            <td class="field">봉쇄 일일 손실 (이란)</td>
+            <td class="value">약 5억 달러 <span class="alt">※ 미국 정책연구단체 UANI 추산</span></td>
+            <td class="src">Reuters / UANI 2026-04-30</td>
+          </tr>
+          <tr>
+            <td class="field">이란 원유 선적</td>
+            <td class="value">일 2.1mbpd → 0.567mbpd (-73%)</td>
+            <td class="src">UANI 2026-04-30</td>
+          </tr>
+
+          <tr class="sub-section"><td colspan="3">C. 난민·실향민 / 발묶임 상선</td></tr>
+          <tr>
+            <td class="field">이란 국내 실향민</td>
+            <td class="value">60만~100만 가구 / 약 320만 명</td>
+            <td class="src">UNHCR 2026-03-12 추정</td>
+          </tr>
+          <tr>
+            <td class="field">아프간 난민 이란→아프가니스탄 귀환 (1~3월)</td>
+            <td class="value">152,100명</td>
+            <td class="src">UNHCR</td>
+          </tr>
+          <tr>
+            <td class="field">UNHCR 글로벌 호소액 모금률</td>
+            <td class="value">85억 달러 중 23%만</td>
+            <td class="src">UNHCR / USA for UNHCR</td>
+          </tr>
+          <tr>
+            <td class="field">호르무즈 발묶인 상선 (누적 추정)</td>
+            <td class="value">약 2,000척</td>
+            <td class="src">Al Jazeera 분석 4/28</td>
+          </tr>
+          <tr>
+            <td class="field">한국 선박 발묶임</td>
+            <td class="value">26척 (유조선 11·기타 15)</td>
+            <td class="src">Korea Herald 4/30</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="ed-note">
+        <b>편집부 주</b> — 이란-이스라엘 사망자는 출처 간 큰 격차가 존재하므로 모두 병기했습니다. 5/1 남부 레바논 공습 사상자는 매체별 집계 기준(특정 사건 vs 24시간 누적) 차이로 추정됩니다. D등급 5건은 양측 병기 원칙으로 처리했습니다.
+      </div>
+    </div>
+
+    <!-- 편집후기 -->
+    <div class="infographic">
+      <div class="ig-head">
+        <h3><span class="num">No.05 ·</span> 편집 후기 (지면 외 메타)</h3>
+        <div class="meta">팩트체커 등급 처리 / 다음 호 추적 과제</div>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;font-family:'Noto Serif KR',serif;font-size:11.5px;line-height:1.7;">
+        <div>
+          <h4 style="font-family:'Noto Sans KR',sans-serif;font-weight:700;font-size:12px;color:var(--accent);margin:0 0 6px 0;letter-spacing:1px;">팩트체크 처리</h4>
+          <ul style="padding-left:18px;margin:0;">
+            <li><b>F등급 0건</b>: 1면 톱 3건 모두 A등급 통과.</li>
+            <li><b>D등급 5건 양측 병기</b>: CENTCOM 척수(약 44), 이란-이스라엘 사망자, 한국 특사 일자(4/22 면담·4/30 브리핑 분리), 5/1 레바논 사망자(9~32 병기), War Powers 해석.</li>
+            <li><b>시점 정정 완료</b>: 모즈타바 발언 4/30(페르시아만의 날), UAE 여행금지 4/30, 정병하 직위 정정("외교장관 특사, 전 주쿠웨이트 대사").</li>
+            <li><b>단일 출처 표기</b>: Press TV 익명 안보 당국자, 이란 관영 테헤란 방공망 가동, IDF 지하 터널 도시 발표.</li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="font-family:'Noto Sans KR',sans-serif;font-weight:700;font-size:12px;color:var(--accent);margin:0 0 6px 0;letter-spacing:1px;">다음 호(제2호) 추적 과제</h4>
+          <ul style="padding-left:18px;margin:0;">
+            <li>이란 5/1 신제안 전문 공개 여부</li>
+            <li>War Powers 위헌소송 진행</li>
+            <li>5/2 이후 미군 추가 타격 발동 여부</li>
+            <li>한국 선박 26척 개별 선사 명단</li>
+            <li>일본·유럽 선사 통항료 의사결정</li>
+          </ul>
+          <p style="margin-top:12px;font-style:italic;color:#666;font-size:11px;text-align:right;">— 편집장, 2026-05-02 KST</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="page-footer">
+    <span>이란 전황 데일리 · 데이터·인포그래픽</span>
+    <span class="pg-num">— 4 —</span>
+    <span>2026.05.02 (토) · DATA &amp; INFOGRAPHICS</span>
+  </div>
+</section>
+
+</body>
+</html>

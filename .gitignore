@@ -1,0 +1,7 @@
+.DS_Store
+*.log
+.env
+.env.*
+
+# 프로젝트 외 파일
+student-helper.png
