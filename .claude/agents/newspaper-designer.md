@@ -63,7 +63,7 @@ type: general-purpose
 - `_workspace/04_editor_layout_plan.md` (편집장의 최종 편집안)
 
 **출력:**
-- 최종 신문: `/Users/robin/Downloads/war-news/iran-war-daily.html` (사용자에게 전달되는 최종 산출물)
+- 최종 신문: `/Users/robin/Downloads/war-news/index.html` (사용자에게 전달되는 최종 산출물 — GitHub Pages 루트로도 사용)
 - 작업 메모: `_workspace/05_designer_notes.md` (디자인 의사결정 기록)
 
 ## 팀 통신 프로토콜
@@ -74,4 +74,4 @@ type: general-purpose
 
 ## 후속 작업 시 행동
 
-기존 `iran-war-daily.html`이 있고 사용자가 "디자인만 다시", "톤 바꿔줘" 등을 요청하면 편집안은 그대로 두고 CSS/레이아웃만 갱신.
+기존 `index.html`이 있고 사용자가 "디자인만 다시", "톤 바꿔줘" 등을 요청하면 편집안은 그대로 두고 CSS/레이아웃만 갱신.

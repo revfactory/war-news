@@ -1,6 +1,6 @@
 ---
 name: iran-war-newspaper
-description: 이란 전쟁 관련 최근 5일 뉴스를 조사하여 한국어 HTML 신문(iran-war-daily.html)을 산출하는 마스터 워크플로우. 5인 에이전트 팀(편집장·종군기자·외교기자·팩트체커·신문 디자이너)을 가동하여 다중 출처 취재→교차 검증→편집→레이아웃까지 끝낸다. "이란 전쟁 신문", "이란 뉴스 페이퍼", "전쟁 신문 만들어", "이란 전황 정리해줘", "신문 다시 만들어", "톱 기사 다른 거로", "사설 다시 써줘", "디자인만 바꿔줘" 등 이란 전쟁 신문의 초기 생성·재실행·부분 수정 요청 시 반드시 이 스킬을 사용할 것.
+description: 이란 전쟁 관련 최근 5일 뉴스를 조사하여 한국어 HTML 신문(index.html, GitHub Pages 호스팅용)을 산출하는 마스터 워크플로우. 5인 에이전트 팀(편집장·종군기자·외교기자·팩트체커·신문 디자이너)을 가동하여 다중 출처 취재→교차 검증→편집→레이아웃까지 끝낸다. "이란 전쟁 신문", "이란 뉴스 페이퍼", "전쟁 신문 만들어", "이란 전황 정리해줘", "신문 다시 만들어", "톱 기사 다른 거로", "사설 다시 써줘", "디자인만 바꿔줘" 등 이란 전쟁 신문의 초기 생성·재실행·부분 수정 요청 시 반드시 이 스킬을 사용할 것.
 ---
 
 # 이란 전쟁 신문 오케스트레이터
@@ -74,7 +74,7 @@ TeamCreate(
 - 팩트체커 D/F등급 항목 처리 방침 반영
 
 ### Step 5: 신문 디자이너 HTML 생성
-- newspaper-designer가 편집안을 받아 `iran-war-daily.html` 생성
+- newspaper-designer가 편집안을 받아 `index.html` 생성 (GitHub Pages 루트 — `.nojekyll` 동봉)
 - 인쇄 가능한 단일 HTML 파일
 
 ### Step 6: 팀 정리
@@ -83,7 +83,7 @@ TeamCreate(
 ## Phase 3: 산출물 확인
 
 최종 산출물:
-- `/Users/robin/Downloads/war-news/iran-war-daily.html` (사용자 전달)
+- `/Users/robin/Downloads/war-news/index.html` (사용자 전달, GitHub Pages 루트)
 - `_workspace/` 안의 중간 산출물 (감사 추적용 보존)
 
 브라우저에서 열어 확인하도록 사용자에 안내.
@@ -122,7 +122,7 @@ TeamCreate(
 1. 사용자: "이란 전쟁 최근 5일 신문 만들어줘"
 2. Phase 0: _workspace 비어있음 → 초기 실행
 3. Phase 1~3 순차 진행
-4. `iran-war-daily.html` 산출, 사용자에게 경로 안내
+4. `index.html` 산출, 사용자에게 경로 안내
 
 **에러 흐름 (검색 결과 부족):**
 1. 사용자: "이란 전쟁 신문"
